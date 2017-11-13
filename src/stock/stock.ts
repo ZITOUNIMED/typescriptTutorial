@@ -2,8 +2,8 @@
 
 export class Stock{
   static STOCK_COUNT:number = 0;
-  ref:string;
-  quantite:number;
+  private ref:string;
+  private quantite:number;
 
   constructor(_ref:string, _quantite:number){
     this.ref = _ref;
